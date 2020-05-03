@@ -1,0 +1,47 @@
+.haydn-murray {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    color: var(--font-color-primary);
+    background-color: var(--background-color-primary);
+}
+
+.haydn-murray-info, .haydn-murray-image {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.haydn-murray-info {
+    margin-top: 200px;
+    margin-left: 5%;
+}
+
+.haydn-murray-name {
+    text-transform: uppercase;
+    font-family: RobotoRegular;
+    font-size: xxx-large;
+}
+
+.haydn-murray-description {
+    margin-top: 10px;
+    width: 80%;
+    font-size: x-large;
+}
+
+.haydn-murray-image {
+    background-image: url('../../../media/headshot.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.haydn-murray-icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.haydn-murray-icon {
+    padding-right: 10px;
+}
