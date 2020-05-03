@@ -18,7 +18,7 @@
 }
 
 .skill-title {
-    color: var(--font-color-primary);
+    color: white;
     font-family: RobotoBold;
     font-size: x-large;
     text-transform: uppercase;

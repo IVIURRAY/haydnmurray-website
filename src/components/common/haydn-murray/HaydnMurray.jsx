@@ -14,7 +14,7 @@ function HaydnMurray() {
           I&apos;m a software engineer based in London, England.
         </section>
         <section className="haydn-murray-icons">
-          <a href="https://www.linkedin.com/in/haydnmurray" target="_blank" rel="noopener noreferrer">
+          <a className="haydn-murray-icon-container" href="https://www.linkedin.com/in/haydnmurray" target="_blank" rel="noopener noreferrer">
             <img src={LinkedIn} alt="LinkedIn Icon" className="haydn-murray-icon" />
           </a>
           <a href="https://github.com/IVIURRAY" target="_blank" rel="noopener noreferrer">

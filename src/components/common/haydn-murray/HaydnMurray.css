@@ -42,6 +42,11 @@
     margin-top: 20px;
 }
 
-.haydn-murray-icon {
+.haydn-murray-icon-container {
     padding-right: 10px;
+}
+
+.haydn-murray-icon {
+    background-color: white;
+    border-radius: 6px;
 }
