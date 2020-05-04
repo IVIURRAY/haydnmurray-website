@@ -1,5 +1,7 @@
 import React from 'react';
-import { Navbar, HaydnMurray, Skills } from './common';
+import {
+  Navbar, HaydnMurray, Skills, Portfolio,
+} from './common';
 
 import './styles/global.css';
 import './App.css';
@@ -10,7 +12,7 @@ function App() {
       <Navbar />
       <HaydnMurray />
       <Skills />
-      {/* Portfolio Section */}
+      <Portfolio />
       {/* Contact Me Section */}
     </section>
   );

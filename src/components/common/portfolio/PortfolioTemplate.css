@@ -1,0 +1,19 @@
+.portfolio-item {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background-color-secondary);
+    height: 200px;
+    width: 95%;
+    margin: 20px 0px;
+    border-radius: 24px 0px 0px 24px;
+}
+
+.portfolio-item:first-child {
+    margin-top: 120px;
+}
+
+.portfolio-item__image {
+    background-color: darkorange;
+    width: 34%;
+    border-radius: 24px 0px 0px 24px;
+}
