@@ -2,18 +2,45 @@
     display: flex;
     flex-direction: row;
     background-color: var(--background-color-secondary);
-    height: 200px;
-    width: 95%;
+    height: 260px;
+    width: 90%;
     margin: 20px 0px;
-    border-radius: 24px 0px 0px 24px;
-}
-
-.portfolio-item:first-child {
-    margin-top: 120px;
+    border-radius: 60px 0px 0px 60px;
+    /* border: solid 2px var(--background-color-secondary); */
+    box-shadow: 0px 0px 4px 0px var(--background-color-secondary);
 }
 
 .portfolio-item__image {
-    background-color: darkorange;
-    width: 34%;
-    border-radius: 24px 0px 0px 24px;
+    display: flex;
+    width: 40%;
+    border-radius: 60px 0px 0px 60px;
+    background-color: var(--background-color-primary);
+    background-image: url('../../../media/francinealexandra.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-right: solid 2px var(--background-color-primary);
+}
+
+.portfolio-item__info {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.portfolio-item__info-title {
+    font-size: xxx-large;
+}
+
+.portfolio-item__info-description {
+    font-size: large;
+    font-family: RobotoRegular;
+    width: 90%;
+}
+
+.portfolio-item__info-title, .portfolio-item__info-description {
+    color: var(--font-color-secondary);
+    margin-left: 20px;
+    margin-top: 20px;
+    align-items: center;
 }

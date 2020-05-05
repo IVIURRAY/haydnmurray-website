@@ -7,9 +7,9 @@ function Portfolio() {
   return (
     <section className="portfolio">
       <span className="portfolio-title">Portfolio</span>
-      <PortfolioTemplate />
-      <PortfolioTemplate />
-      <PortfolioTemplate />
+      <PortfolioTemplate title="Francine Alaxandra" />
+      <PortfolioTemplate title="A R T &nbsp;  M A R T" />
+      <PortfolioTemplate title="Something Else" />
     </section>
   );
 }
